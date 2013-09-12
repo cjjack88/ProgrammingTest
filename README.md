@@ -1,2 +1,2 @@
-testside
+CJ Chan testing projects.
 ========
