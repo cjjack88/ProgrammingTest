@@ -6,11 +6,11 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D99B26D6-F40C-433E-B3E4-664D9C9168DD}</ProjectGuid>
+    <ProjectGuid>{29A2384C-E1EC-4D0E-BCD7-70DDA868AE37}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DummyData_Users_ObjectHydrator_Test</RootNamespace>
-    <AssemblyName>DummyData_Users_ObjectHydrator_Test</AssemblyName>
+    <RootNamespace>DesignPattern_Test</RootNamespace>
+    <AssemblyName>DesignPattern_Test</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -45,17 +45,14 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="General.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DummyData_Users_ObjectHydrator\DummyData_Users_ObjectHydrator\DummyData_Users_ObjectHydrator.csproj">
-      <Project>{C6EAB52D-51EC-4953-BB27-A262D41943C9}</Project>
-      <Name>DummyData_Users_ObjectHydrator</Name>
+    <ProjectReference Include="..\DesignPattern_Singleton\DesignPattern_Singleton\DesignPattern_Singleton.csproj">
+      <Project>{C34D13ED-1735-4A89-BB43-A7ED6078020C}</Project>
+      <Name>DesignPattern_Singleton</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
