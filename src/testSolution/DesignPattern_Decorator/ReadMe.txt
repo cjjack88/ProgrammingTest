@@ -1,0 +1,1 @@
+﻿http://www.dotnet-tricks.com/Tutorial/designpatterns/VRQT130713-Decorator-Design-Pattern---C#.html
