@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tool_OpenSource_IonicZip", "Tool_OpenSource_IonicZip\", "{2392D6AF-3ADA-4777-A211-6C08537A575B}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tool_OpenSource_IonicZip", "Tool_OpenSource_IonicZip", "{2392D6AF-3ADA-4777-A211-6C08537A575B}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		ProjectReferences = "{C6EAB52D-51EC-4953-BB27-A262D41943C9}|DummyData_Users_ObjectHydrator.dll;"
@@ -34,7 +34,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tool_OpenSource_Epplus", "Tool_OpenSource_Epplus\", "{34B46B06-86DC-41E9-BB16-5295F9B3AA89}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tool_OpenSource_Epplus", "Tool_OpenSource_Epplus", "{34B46B06-86DC-41E9-BB16-5295F9B3AA89}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		ProjectReferences = "{C6EAB52D-51EC-4953-BB27-A262D41943C9}|DummyData_Users_ObjectHydrator.dll;"

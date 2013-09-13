@@ -16,13 +16,12 @@ namespace DesignPattern_Test
             // Basic vehicle
             HondaCity car = new HondaCity();
 
-            Console.WriteLine("Honda City base price are : {0}", car.Price);
+            //Console.WriteLine("Honda City base price are : {0}", car.Price);
 
             // Special offer
             SpecialOffer offer = new SpecialOffer(car);
             offer.DiscountPercentage = 25;
             offer.Offer = "25 % discount";
-
             Assert.IsNotNull(string.Format("{1} @ Diwali Special Offer and price are : {0} ", offer.Price, offer.Offer));
         }
     }
