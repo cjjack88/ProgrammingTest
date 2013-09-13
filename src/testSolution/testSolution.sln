@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tool_OpenSource_IonicZip", "Tool_OpenSource_IonicZip", "{2392D6AF-3ADA-4777-A211-6C08537A575B}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tool_OpenSource_IonicZip", "Tool_OpenSource_IonicZip\", "{2392D6AF-3ADA-4777-A211-6C08537A575B}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		ProjectReferences = "{C6EAB52D-51EC-4953-BB27-A262D41943C9}|DummyData_Users_ObjectHydrator.dll;"
@@ -34,7 +34,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tool_OpenSource_Epplus", "Tool_OpenSource_Epplus", "{34B46B06-86DC-41E9-BB16-5295F9B3AA89}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tool_OpenSource_Epplus", "Tool_OpenSource_Epplus\", "{34B46B06-86DC-41E9-BB16-5295F9B3AA89}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		ProjectReferences = "{C6EAB52D-51EC-4953-BB27-A262D41943C9}|DummyData_Users_ObjectHydrator.dll;"
@@ -61,6 +61,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern_Test", "DesignPattern_Test\DesignPattern_Test.csproj", "{29A2384C-E1EC-4D0E-BCD7-70DDA868AE37}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern_Decorator", "DesignPattern_Decorator\DesignPattern_Decorator.csproj", "{2A2FE976-3672-4D8C-AE97-17779BCAED76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tool_OpenSource_Selenium", "Tool_OpenSource_Selenium\Tool_OpenSource_Selenium.csproj", "{D205209A-4B9C-49EB-8C56-1B81C6211BB9}"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
@@ -99,6 +101,10 @@ Global
 		{2A2FE976-3672-4D8C-AE97-17779BCAED76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A2FE976-3672-4D8C-AE97-17779BCAED76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A2FE976-3672-4D8C-AE97-17779BCAED76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D205209A-4B9C-49EB-8C56-1B81C6211BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D205209A-4B9C-49EB-8C56-1B81C6211BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D205209A-4B9C-49EB-8C56-1B81C6211BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D205209A-4B9C-49EB-8C56-1B81C6211BB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
