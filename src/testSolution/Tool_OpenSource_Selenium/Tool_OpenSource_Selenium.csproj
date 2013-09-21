@@ -53,7 +53,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Dependencies\chromedriver.exe" />
+    <Content Include="Dependencies\chromedriver.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Dependencies\IEDriverServer.exe" />
     <Content Include="Dependencies\Ionic.Zip.dll" />
     <Content Include="Dependencies\Newtonsoft.Json.dll" />

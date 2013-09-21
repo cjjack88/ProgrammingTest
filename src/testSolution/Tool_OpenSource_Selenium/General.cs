@@ -17,7 +17,7 @@ namespace Tool_OpenSource_Selenium
         [ClassInitialize()]
         public static void MyClassInitialize(TestContext testContext)
         {
-            _webDriver = new Core().instantiateBrowser(Core.BrowserType.FIREFOX, URL);
+            _webDriver = new Core().instantiateBrowser(Core.BrowserType.CHROME, URL);
         }
 
         [ClassCleanup()]
