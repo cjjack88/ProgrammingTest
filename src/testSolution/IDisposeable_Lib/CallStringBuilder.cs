@@ -21,7 +21,7 @@ namespace IDisposeable_Lib
 
         public string GetHelloWorld()
         {
-            using (_myStringBuilder)
+            using (_myStringBuilder)//This is the problem, where is dispose the global object.
             {
                 return _myStringBuilder.GetHelloWorld();
             }
