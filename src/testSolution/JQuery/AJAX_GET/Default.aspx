@@ -4,7 +4,7 @@
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
     <script type="text/javascript">
         $(document).ready(function () {
-            $.get("DataPage.aspx", { MemberName: "John" })
+        $.get("DataPage.ashx", { MemberName: "John" })
                 .done(function (data) {
                     debugger;
                     alert("Data Loaded: " + data);

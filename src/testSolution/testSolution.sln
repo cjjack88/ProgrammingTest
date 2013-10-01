@@ -113,6 +113,26 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AJAX_GET", "JQuery\AJAX_GET
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebHandlerFile_JQueryGet", "Sample\WebHandlerFile_JQueryGet\", "{4A2C55C5-E56E-46AC-9A96-A8049514A9D1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/WebHandlerFile_JQueryGet"
+		Debug.AspNetCompiler.PhysicalPath = "Sample\WebHandlerFile_JQueryGet\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebHandlerFile_JQueryGet\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebHandlerFile_JQueryGet"
+		Release.AspNetCompiler.PhysicalPath = "Sample\WebHandlerFile_JQueryGet\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebHandlerFile_JQueryGet\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59321"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = testSolution.vsmdi
@@ -170,12 +190,17 @@ Global
 		{BE6DE91A-9400-4B05-90E6-5D902BB06ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE6DE91A-9400-4B05-90E6-5D902BB06ED8}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{BE6DE91A-9400-4B05-90E6-5D902BB06ED8}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{4A2C55C5-E56E-46AC-9A96-A8049514A9D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2C55C5-E56E-46AC-9A96-A8049514A9D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2C55C5-E56E-46AC-9A96-A8049514A9D1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2C55C5-E56E-46AC-9A96-A8049514A9D1}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{74D49476-4417-4AA8-8516-81D611C5AEEA} = {5EF1810B-1564-420B-A552-8DE8E4E08658}
+		{4A2C55C5-E56E-46AC-9A96-A8049514A9D1} = {5EF1810B-1564-420B-A552-8DE8E4E08658}
 		{BE6DE91A-9400-4B05-90E6-5D902BB06ED8} = {16F8F0B4-A67E-429F-AD9B-7E3386A23708}
 	EndGlobalSection
 EndGlobal
