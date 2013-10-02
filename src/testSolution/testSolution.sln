@@ -133,6 +133,30 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebHandlerFile_JQueryGet", 
 		VWDPort = "59321"
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GoogleExtensions", "GoogleExtensions", "{66687E84-1902-4D4D-9BE3-AE523180FC54}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "i3investorPortfolioGoogleExtension", "GoogleExtensions\i3investorPortfolioGoogleExtension\", "{D80AFFA5-A37C-439C-94F7-927F15A8F89B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/i3investorPortfolioGoogleExtension"
+		Debug.AspNetCompiler.PhysicalPath = "GoogleExtensions\i3investorPortfolioGoogleExtension\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\i3investorPortfolioGoogleExtension\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/i3investorPortfolioGoogleExtension"
+		Release.AspNetCompiler.PhysicalPath = "GoogleExtensions\i3investorPortfolioGoogleExtension\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\i3investorPortfolioGoogleExtension\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54443"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPattern", "DesignPattern", "{796B77C0-BF1E-463B-A0B1-3F87AB618613}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = testSolution.vsmdi
@@ -194,6 +218,10 @@ Global
 		{4A2C55C5-E56E-46AC-9A96-A8049514A9D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A2C55C5-E56E-46AC-9A96-A8049514A9D1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{4A2C55C5-E56E-46AC-9A96-A8049514A9D1}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D80AFFA5-A37C-439C-94F7-927F15A8F89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80AFFA5-A37C-439C-94F7-927F15A8F89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80AFFA5-A37C-439C-94F7-927F15A8F89B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80AFFA5-A37C-439C-94F7-927F15A8F89B}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -202,5 +230,9 @@ Global
 		{74D49476-4417-4AA8-8516-81D611C5AEEA} = {5EF1810B-1564-420B-A552-8DE8E4E08658}
 		{4A2C55C5-E56E-46AC-9A96-A8049514A9D1} = {5EF1810B-1564-420B-A552-8DE8E4E08658}
 		{BE6DE91A-9400-4B05-90E6-5D902BB06ED8} = {16F8F0B4-A67E-429F-AD9B-7E3386A23708}
+		{D80AFFA5-A37C-439C-94F7-927F15A8F89B} = {66687E84-1902-4D4D-9BE3-AE523180FC54}
+		{2A2FE976-3672-4D8C-AE97-17779BCAED76} = {796B77C0-BF1E-463B-A0B1-3F87AB618613}
+		{29A2384C-E1EC-4D0E-BCD7-70DDA868AE37} = {796B77C0-BF1E-463B-A0B1-3F87AB618613}
+		{C34D13ED-1735-4A89-BB43-A7ED6078020C} = {796B77C0-BF1E-463B-A0B1-3F87AB618613}
 	EndGlobalSection
 EndGlobal
